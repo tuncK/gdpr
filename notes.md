@@ -4,7 +4,7 @@ title: GDPR Notes
 ---
 
 > This Regulation does not therefore concern the processing of such anonymous information, including for statistical or research purposes.
-
+dummy
 Implies that we are OK to analyse user data (without emails / without user identities) for statistical and research purposes.
 
 > To ascertain whether means are reasonably likely to be used to identify the
