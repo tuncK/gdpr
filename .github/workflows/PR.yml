@@ -1,8 +1,8 @@
 name: Jekyll build for PRs
 
 on:
-  push
-  pull_request
+  push:
+  pull_request:
 
 jobs:
   build:
