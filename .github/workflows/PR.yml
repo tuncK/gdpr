@@ -9,8 +9,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - uses: fabacab/jekyll-builder-for-github-pages-action@v1
+    - uses: jeffreytse/jekyll-deploy-action@v0.5.0
       with:
-        pre_build_commands: |
-          echo Updating bundler...
-          gem install bundler
+        provider: 'test'
