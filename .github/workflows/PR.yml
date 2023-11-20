@@ -1,0 +1,15 @@
+name: Jekyll build for PRs
+
+on:
+  push
+  pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - uses: fabacab/jekyll-builder-for-github-pages-action@v1
+      #with:
+      #  gh_pages_publishing_source: gh-pages
