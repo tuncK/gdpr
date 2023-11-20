@@ -11,5 +11,6 @@ jobs:
     
     - uses: jeffreytse/jekyll-deploy-action@v0.5.0
       with:
-        provider: 'test'
-        token: ${{ secrets.GITHUB_TOKEN }}
+        provider: 'github'
+        token: ${{ secrets.Jekyll_GITHUB_TOKEN }}
+        branch: 'gh-pages'
