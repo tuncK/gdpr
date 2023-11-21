@@ -18,3 +18,4 @@ jobs:
         provider: 'github'
         branch: 'gh-pages'
         token: ${{ secrets.GITHUB_TOKEN }}
+        pre_build_commands: bundle install
