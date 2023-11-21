@@ -3,7 +3,7 @@ layout: default
 title: GDPR Compliance Documentation
 ---
 
-For UseGalaxy.eu
+For UseGalaxy.eus
 
 ## ToS & PP
 - [Definitions and scope](./scope.html)
